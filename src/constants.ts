@@ -32,44 +32,45 @@ export const PROJECTS: Project[] = [
     github: "#",
   },
   {
-    title: "Accounting Agency Website",
+    title: "Accounting Firm Website",
     description:
-      "A comprehensive dashboard for managing products, orders, and customers with real-time analytics.",
+      "A comprehensive website for an accounting firm in canada who wants to show their presence on the web and providing services to the clients.",
     image: projectTwoImg,
     tags: ["React", "Javascript", "TypeScript", "Node.js", "Framer-Motion", "Web3forms"],
     link: "https://prairietaxes.com/",
     github: "#",
   },
   {
-    title: "Social Media App",
+    title: "Booking Tracker Dashboard",
     description: `Developed comprehensive booking management dashboard aggregating data from multiple sources (MakeMyTrip, Goibibo,
-MyBus, Personal) with CSV export functionality using npm CSVLink`,
+MyBus, Personal) with export to CSV functionality`,
     image: projectThreeImg,
-    tags: ["React", "Firebase", "Framer Motion", "Tailwind"],
+    tags: ["React", "Javascript", "Framer Motion", "TailwindCSS"],
     link: "https://bus-booking-tracker-psi.vercel.app/",
     github: "#",
   },
 ];
 
 export const EXPERIENCES: Experience[] = [
-  {
-    company: "Freelancer",
-    position: "Frontend Developer",
-    duration: "2026 - Present",
-    description: [
-      "Led the migration of a legacy codebase to React and TypeScript, improving performance by 40%.",
-      "Developed and maintained a custom UI component library used across multiple internal projects.",
-      "Mentored junior developers and conducted regular code reviews to ensure high-quality standards.",
-    ],
-  },
+  // {
+  //   company: "Freelancer",
+  //   position: "Frontend Developer",
+  //   duration: "2026 - Present",
+  //   description: [
+  //     "Led the migration of a legacy codebase to React and TypeScript, improving performance by 40%.",
+  //     "Developed and maintained a custom UI component library used across multiple internal projects.",
+  //     "Mentored junior developers and conducted regular code reviews to ensure high-quality standards.",
+  //   ],
+  // },
   {
     company: "Amerging Technologies",
     position: "Software Developer",
-    duration: "2023 - 2026",
+    duration: "2023 - Present",
     description: [
       "Built responsive and interactive user interfaces for various client projects using React and Tailwind CSS.",
-      "Collaborated with designers to implement pixel-perfect designs and smooth animations.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Proficient in building dynamic, scalable web applications using React.js with a strong focus on component-based architecture, state management, and API integration. Experienced in deploying React apps and API testing.",
+      "Well-versed in a variety of tools and technologies, including Redux, React Router, Axios, Tailwind CSS, MUI, ShadCN, and Bootstrap. Demonstrated expertise in state management, responsive UI/UX design, and implementing best practices for modern web development.",
+      "Experienced in working with AWS for cloud integration and API-driven development to enhance application functionality and scalability.",
     ],
   },
 ];

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         <div>
           <a href="#" className="text-2xl font-display font-bold text-primary">
-            Dev<span className="text-neutral-900">Portfolio</span>
+            Keshav<span className="text-neutral-900">Mittal</span>
           </a>
           <p className="text-neutral-500 mt-2 text-sm">
             © {new Date().getFullYear()} All rights reserved.

@@ -20,9 +20,9 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-bold mb-6"
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-bold mb-6 "
           >
-            Available for Freelance
+            <span className='h-2 w-2 animate-ping rounded-full bg-green-500'></span>Available for Freelance
           </motion.span>
           <h1 className="heading-xl mb-6">
             Building <span className="text-primary">Digital</span> Experiences That Matter

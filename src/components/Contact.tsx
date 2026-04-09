@@ -60,6 +60,7 @@
                       type="text" 
                       placeholder="Name"
                       className="w-full px-6 py-4 bg-neutral-50 border border-neutral-100 rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
+                      required
                     />
                   </div>
                   <div className="space-y-2">
@@ -90,7 +91,7 @@
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full py-4 bg-primary text-white rounded-2xl font-bold shadow-xl shadow-primary/20 flex items-center justify-center gap-2"
+                  className="w-full py-4 cursor-pointer bg-primary text-white rounded-2xl font-bold shadow-xl shadow-primary/20 flex items-center justify-center gap-2"
                 >
                   Send Message <Icon name="Send" size={20} />
                 </motion.button>
