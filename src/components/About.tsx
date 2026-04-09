@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import Icon from "./Icon";
+import profilePic from '../assets/keshavProfPic.jpeg'
 
 export default function About() {
   return (
@@ -10,11 +11,11 @@ export default function About() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative flex justify-center lg:block"
           >
-            <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="w-full max-w-sm md:max-w-md lg:max-w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://picsum.photos/seed/about/800/1000"
+                src={profilePic}
                 alt="About Me"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

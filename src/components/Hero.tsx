@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute top-0 right-0 -z-10 w-1/2 h-full bg-primary/5 blur-3xl rounded-full translate-x-1/2 -translate-y-1/4" />
       <div className="absolute bottom-0 left-0 -z-10 w-1/3 h-1/2 bg-secondary/5 blur-3xl rounded-full -translate-x-1/2 translate-y-1/4" />
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-2 items-center gap-10 lg:gap-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -37,7 +37,7 @@ export default function Hero() {
               href="#projects"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 bg-primary text-white rounded-2xl font-bold shadow-xl shadow-primary/20 flex items-center gap-2"
+              className="px-6 py-4 bg-primary text-white rounded-2xl font-bold shadow-xl shadow-primary/20 flex items-center gap-2"
             >
               View Projects <Icon name="ChevronRight" size={20} />
             </motion.a>
@@ -46,7 +46,8 @@ export default function Hero() {
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 bg-white text-neutral-900 border border-neutral-200 rounded-2xl font-bold shadow-sm flex items-center gap-2"
+              target='_blank'
+              className="px-6 py-4 bg-white text-neutral-900 border border-neutral-200 rounded-2xl font-bold shadow-sm flex items-center gap-2"
             >
               Download CV <Icon name="Download" size={20} />
             </motion.a>
@@ -59,7 +60,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative"
         >
-          <div className="relative z-10 glass-card p-4 overflow-hidden aspect-square flex items-center justify-center">
+          <div className="relative z-10 glass-card p-4 overflow-hidden w-full max-w-sm md:max-w-md lg:max-w-full mx-auto">
              <img 
                src={heroImg}
                alt="Developer" 

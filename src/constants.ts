@@ -10,7 +10,7 @@ export const SKILLS: Skill[] = [
   { name: "JavaScript", icon: "FileJson", category: "Frontend" },
   { name: "TypeScript", icon: "FileJson", category: "Frontend" },
   { name: "Tailwind CSS", icon: "Palette", category: "Frontend" },
-  { name: "Next.js", icon: "Globe", category: "Frontend" },
+  // { name: "Next.js", icon: "Globe", category: "Frontend" },
   { name: "Framer Motion", icon: "Zap", category: "Frontend" },
   { name: "Redux", icon: "Layers", category: "Frontend" },
   { name: "Node.js", icon: "Server", category: "Backend" },
@@ -63,7 +63,7 @@ export const EXPERIENCES: Experience[] = [
   //   ],
   // },
   {
-    company: "Amerging Technologies",
+    company: "",
     position: "Software Developer",
     duration: "2023 - Present",
     description: [
@@ -79,15 +79,15 @@ export const SOCIALS: Social[] = [
   {
     platform: "GitHub",
     url: "https://github.com/keshavmittal4",
-    icon: "Github",
+    icon: "FaGithub",
   },
   {
     platform: "LinkedIn",
     url: "https://linkedin.com/in/keshavmittaldev",
-    icon: "Linkedin",
+    icon: "FaLinkedin",
   },
-  { platform: "Twitter", url: "https://twitter.com", icon: "Twitter" },
+  // { platform: "Twitter", url: "https://twitter.com", icon: "Twitter" },
 ];
 
-export const WHATSAPP_NUMBER = "9588732843"; // Replace with actual number
-export const RESUME_URL = "/resume.pdf"; // Placeholder
+export const WHATSAPP_NUMBER = "9588732843"; 
+export const RESUME_URL = "https://drive.google.com/file/d/1_5polWeuXx8xXYzuhb6fS0FuXBazh1za/view?usp=sharing"; 
