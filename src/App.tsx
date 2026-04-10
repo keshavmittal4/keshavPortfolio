@@ -8,11 +8,13 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsappButton'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
   return (
     <div className="relative">
+      <Toaster position='top-center'/>
       <Navbar />
       <main>
         <Hero />
