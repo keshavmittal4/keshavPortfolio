@@ -14,7 +14,11 @@ export default function Contact() {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
+  ) => {
     const { name, value } = e.target;
 
     setFormData((prev) => ({
@@ -23,7 +27,7 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!formData.fullName || !formData.email) {
@@ -144,11 +148,7 @@ ${formData.message}
             // viewport={{ once: true }}
             className="glass-card p-8 md:p-12"
           >
-            <form
-              onSubmit={handleSubmit}
-              className="space-y-6"
-              // onSubmit={(e) => e.preventDefault()}
-            >
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-neutral-700 uppercase">
@@ -161,7 +161,6 @@ ${formData.message}
                     onChange={handleChange}
                     placeholder="Full Name"
                     className="w-full px-6 py-4 bg-neutral-50 border border-neutral-100 rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
-                    
                   />
                 </div>
                 <div className="space-y-2">
